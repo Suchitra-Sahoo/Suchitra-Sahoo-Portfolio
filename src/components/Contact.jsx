@@ -48,7 +48,7 @@ const Contact = () => {
             </p>
             
             <button
-              onClick={() => window.location.href = "mailto:SQLEase@gmail.com"}
+              onClick={() => window.location.href = "mailto:suchitrasahoo874@gmail.com"}
               className="cursor-pointer border border-cyan-500  text-white font-semibold px-6 py-3 rounded shadow-md hover:shadow-xl hover:scale-110 transition-transform duration-200 ease-in-out">
               Get in touch
             </button>
