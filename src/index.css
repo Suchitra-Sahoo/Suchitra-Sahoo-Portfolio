@@ -1,0 +1,137 @@
+@import "tailwindcss";
+body {
+  overflow-x: hidden;
+}
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-full {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --animation-rotate-full: rotate-full 45s linear infinite;
+}
+
+.animate-spin-slow {
+  animation: spin-slow 6s linear infinite;
+}
+
+.clip-hexagon {
+  clip-path: polygon(
+    25% 5.77%,
+    75% 5.77%,
+    100% 50%,
+    75% 94.23%,
+    25% 94.23%,
+    0% 50%
+  );
+}
+.hex-border {
+  position: relative;
+  display: inline-block;
+}
+
+.hex-border::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  background: linear-gradient(135deg, #00f0ff, #0070ff);
+  clip-path: polygon(
+    25% 5.77%,
+    75% 5.77%,
+    100% 50%,
+    75% 94.23%,
+    25% 94.23%,
+    0% 50%
+  );
+  box-shadow: whitesmoke;
+  box-shadow: 10px;
+  z-index: -1;
+  border-radius: 8px;
+}
+.hex-border:hover::before {
+  filter: drop-shadow(0 0 10px #00f0ff);
+}
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.arrows path {
+  stroke: #2994d1;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/ {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.arrows path.a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s; /* Safari 和 Chrome */
+}
