@@ -87,7 +87,7 @@ const About = () => {
 
               {/* Resume Download */}
               <a
-                href="https://drive.google.com/file/d/1czTLUsfcJWdxY8gCweTSrjmxt3KKrWnk/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/116Z6CfC3ZNo8Fhy4GWtZgEvlXH1D1Eda/view?usp=drivesdk"
                 download
                 target="_blank"
                 rel="noopener noreferrer"

@@ -59,7 +59,7 @@ const Hero = () => {
 
               {/* Download Resume Button */}
               <a
-                href="https://drive.google.com/file/d/1czTLUsfcJWdxY8gCweTSrjmxt3KKrWnk/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/116Z6CfC3ZNo8Fhy4GWtZgEvlXH1D1Eda/view?usp=drivesdk"
                 download
                 className="flex items-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 rounded w-full sm:w-60 hover:scale-110 transition-transform duration-200 ease-in-out"
               >
