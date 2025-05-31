@@ -2,8 +2,11 @@ import { IoCodeWorkingOutline } from "react-icons/io5";
 import { IoLogoMicrosoft } from "react-icons/io5";
 import { FaGithub, FaTwitter, FaReact, FaJava, FaGit, FaCode, FaCertificate, FaStar } from "react-icons/fa";
 import { SiTailwindcss, SiFramer, SiHtml5, SiJavascript, SiNodedotjs, SiBootstrap, SiCss3, SiTypescript, SiPython, SiFigma, SiMysql, SiOracle, SiNextdotjs, SiSpringboot, SiPostgresql } from "react-icons/si";
+import { DiMongodb } from "react-icons/di";
+
 
 export const Icons = {
+  mongodb:DiMongodb,
   gitHub: FaGithub,
   twitter: FaTwitter,
   react: FaReact,
