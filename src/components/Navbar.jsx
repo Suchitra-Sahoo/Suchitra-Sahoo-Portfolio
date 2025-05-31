@@ -37,53 +37,47 @@ export default function Navbar() {
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 shadow-md font-mono">
+    <nav className="fixed top-0 left-0 w-full z-50 shadow-md font-mono bg-black bg-opacity-90">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-xl text-gray-400">
           <div className="Name sm:text-4xl md:text-3xl lg:text-4xl font-mono">
             <a href="/">
-            <span >&lt;Suchitra Sahoo/&gt;</span>
+              <span>&lt;Suchitra Sahoo/&gt;</span>
             </a>
           </div>
         </div>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex space-x-6  font-medium text-white">
+        <div className="hidden md:flex space-x-6 font-medium text-white">
           <button
             onClick={() => scrollToTargetWorks("About")}
-            className="hover:text-cyan-400 transition"
+            className="hover:text-cyan-400 transition cursor-pointer"
           >
             About
           </button>
-          <a
-            href="#skills"
+          <button
             onClick={() => scrollToTargetWorks("skills")}
-            className=" text-center pt-2 hover:text-cyan-400 transition"
+            className="hover:text-cyan-400 transition cursor-pointer"
           >
             Skills
-          </a>
-          <a
-            href="#projects"
+          </button>
+          <button
             onClick={() => scrollToTargetWorks("projects")}
-            className=" text-center pt-2 hover:text-cyan-400 transition"
+            className="hover:text-cyan-400 transition cursor-pointer"
           >
             Projects
-          </a>
-          <a
-            href="#contact"
+          </button>
+          <button
             onClick={() => scrollToTargetWorks("contact")}
             className="bg-transparent border-2 border-cyan-500 hover:bg-cyan-600 hover:text-white text-cyan-500 px-4 py-2 rounded-full transition duration-300"
           >
             Contact
-          </a>
+          </button>
         </div>
 
         {/* Mobile Toggle */}
         <div className="md:hidden">
-          <button
-            onClick={toggleMenu}
-            className="text-white focus:outline-none"
-          >
+          <button onClick={toggleMenu} className="text-white focus:outline-none">
             {menuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
@@ -91,7 +85,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className=" justify-between md:hidden px-4 pb-4 text-sm font-medium text-white ">
+        <div className="md:hidden px-4 pb-4 text-sm font-medium text-white flex flex-col space-y-2">
           <button
             onClick={() => {
               scrollToTargetWorks("About");
@@ -102,19 +96,32 @@ export default function Navbar() {
             About
           </button>
           <button
-           className="block w-full m-auto text-center p-2 hover:text-cyan-400">
+            onClick={() => {
+              scrollToTargetWorks("skills");
+              setMenuOpen(false);
+            }}
+            className="block w-full text-center p-2 hover:text-cyan-400"
+          >
             Skills
           </button>
           <button
-           className="block w-full m-auto text-cneter p-2 hover:text-cyan-400">
+            onClick={() => {
+              scrollToTargetWorks("projects");
+              setMenuOpen(false);
+            }}
+            className="block w-full text-center p-2 hover:text-cyan-400"
+          >
             Projects
           </button>
-          <a
-            href="#contact"
-            className="block w-fit items-center m-auto text-center bg-orange-500 hover:bg-o my-2 range-600 text-white px-4 py-2 rounded-full transition duration-300"
+          <button
+            onClick={() => {
+              scrollToTargetWorks("contact");
+              setMenuOpen(false);
+            }}
+            className="block w-full bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-full transition duration-300"
           >
             Contact
-          </a>
+          </button>
         </div>
       )}
     </nav>
