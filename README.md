@@ -29,8 +29,8 @@ I am a passionate learner and creator, exploring new challenges and building pro
 ## 📫 Connect with Me
 <p align="center">
   <a href="https://github.com/suchitra-sahoo" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>  
-  <a href="https://www.linkedin.com/in/suchitra-sahoo/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>  
-  <a href="mailto:suchitra@example.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/suchitra-sahoo-a60a05257/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>  
+  <a href="mailto:suchitrasahoo874@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 ## 📜 License
