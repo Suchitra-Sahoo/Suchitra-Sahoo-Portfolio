@@ -33,5 +33,3 @@ I am a passionate learner and creator, exploring new challenges and building pro
   <a href="mailto:suchitrasahoo874@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
-## 📜 License
-This project is licensed under the MIT License.
