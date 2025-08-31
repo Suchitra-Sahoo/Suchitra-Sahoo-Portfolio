@@ -1,12 +1,37 @@
-# React + Vite
+<p align="center">
+  <img src="https://static.vecteezy.com/system/resources/previews/041/761/137/non_2x/personal-portfolio-illustration-with-profile-data-resume-or-self-improvement-to-attract-clients-and-employers-in-flat-cartoon-background-vector.jpg" alt="Personal Portfolio Illustration" width="600"/>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🌟 Suchitra Sahoo – Personal Portfolio
 
-Currently, two official plugins are available:
+Welcome to my personal portfolio! This repository showcases my projects, skills, and professional journey. It’s designed to provide a clear view of my work, achievements, and areas of expertise.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔹 About Me
+I am a passionate learner and creator, exploring new challenges and building projects that reflect my growth. This portfolio highlights my work, skills, and experiences in an organized and professional manner.
 
-## Expanding the ESLint configuration
+## ✨ What’s Inside
+- 🖼️ **Projects** – A showcase of my key work and creations.  
+- 🎨 **Skills & Interests** – Tools, technologies, and areas I enjoy working in.  
+- 🏆 **Achievements** – Notable accomplishments, certifications, and milestones.  
+- 📫 **Contact** – Connect with me professionally.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>  
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>  
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>  
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>  
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS"/>  
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>  
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>  
+</p>
+
+## 📫 Connect with Me
+<p align="center">
+  <a href="https://github.com/suchitra-sahoo" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>  
+  <a href="https://www.linkedin.com/in/suchitra-sahoo/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>  
+  <a href="mailto:suchitra@example.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+## 📜 License
+This project is licensed under the MIT License.
